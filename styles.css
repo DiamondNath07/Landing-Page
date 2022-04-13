@@ -93,7 +93,8 @@ form {
 }
 
 .premium,
-.shipping {
+.shipping,
+.assurance {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -103,6 +104,93 @@ form {
 .container {
   max-width: 960px;
   margin: auto;
+}
+
+.fa-solid,
+.fa,
+.fa-battery-full {
+  color: peru;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.Youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0px;
+}
+
+.Youtube iframe {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > .h2 {
+  padding: 15px;
+}
+
+h2 {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.product > ol,
+li {
+  padding: 15px 0;
+}
+
+ol {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
 }
 
 /* .description h2 {
